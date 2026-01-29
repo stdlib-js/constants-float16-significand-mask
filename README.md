@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-significand-mask/tags). For example,
+
+```javascript
 import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@v0.1.0-esm/index.mjs';
 ```
 
@@ -82,7 +87,7 @@ var bool = ( FLOAT16_SIGNIFICAND_MASK === 0x03ff );
 <script type="module">
 
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-to-word@esm/index.mjs';
-import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@v0.1.0-esm/index.mjs';
+import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@esm/index.mjs';
 
 var x = 11.5;
 var w = toWord( x ); // 0 10010 0111000000
