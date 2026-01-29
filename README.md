@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@deno/mod.js';
+import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@v0.1.0-deno/mod.js';
 ```
 
 #### FLOAT16_SIGNIFICAND_MASK
@@ -77,7 +77,7 @@ var bool = ( FLOAT16_SIGNIFICAND_MASK === 0x03ff );
 
 ```javascript
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-to-word@deno/mod.js';
-import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@deno/mod.js';
+import FLOAT16_SIGNIFICAND_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-significand-mask@v0.1.0-deno/mod.js';
 
 var x = 11.5;
 var w = toWord( x ); // 0 10010 0111000000
